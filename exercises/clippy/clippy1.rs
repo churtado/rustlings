@@ -6,8 +6,6 @@
 // check clippy's suggestions from the output to solve the exercise.
 // Execute `rustlings hint clippy1` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 use std::f32;
 
 fn hi() {
@@ -15,10 +13,9 @@ fn hi() {
 }
 
 fn main() {
-    let pi = 3.14f32;
     let radius = 5.00f32;
 
-    let area = pi * f32::powi(radius, 2);
+    let area = f32::consts::PI * f32::powi(radius, 2);
 
     hi();
 
